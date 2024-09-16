@@ -1,6 +1,8 @@
 numero = input("Digite um número inteiro: ")
+palindromo = True
 
-if numero == numero[::-1]:
-    print(numero, "é um palíndromo.")
-else:
-    print(numero, "não é um palíndromo.")
+for i in range(len(numero) // 2):
+    palindromo = palindromo and (numero[i] == numero[-i-1])
+
+mensagem = "é um palíndromo." if palindromo else "não é um palíndromo."
+print(numero, mensagem)
