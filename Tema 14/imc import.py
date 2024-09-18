@@ -1,4 +1,5 @@
-import cimc       #importa o modulo que tem as funcoes pra calcularr e classifica
+import cimc       #importa o modulo que tem as funcoes pra calcular e classifica
+                  #orecisa do arquivo cimc
 #solicita ao usuario pesso em quilogramas e altura em metros
 peso = float(input("Digite o seu peso (kg): "))
 altura = float(input("Digite a sua altura (m): "))
