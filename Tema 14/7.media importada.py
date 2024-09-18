@@ -1,4 +1,4 @@
-import media
+import media     #precisa do arquivo media na mesma pasta
 
 numero1 = 10
 numero2 = 5
