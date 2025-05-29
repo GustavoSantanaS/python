@@ -11,9 +11,9 @@ while True: #inicia o loop com entrada de dados do usuario
         maior = numeroInteiro
         menor = numeroInteiro
         cont = 0  #da uma atualizada no cont para não entrar mais nesta condição
-    if n > maior: #verifica se e maior
+    if numeroInteiro > maior: #verifica se e maior
         maior = numeroInteiro 
-    if n < menor: #ve se e menor
+    if numeroInteiro < menor: #ve se e menor
         menor = numeroInteiro
 
 if maior and menor: # ve o maior e o menor se foram atualizados de acordo com a resposta do usuario
