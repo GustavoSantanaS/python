@@ -1,7 +1,7 @@
-p = float(input('Peso: '))
-a = float(input('Altura: '))
+peso = float(input('Peso: '))
+altura = float(input('Altura: '))
 IMC = float
-IMC = p / (a**2)
+IMC = peso / (altura**2)
 print('IMC: ', IMC)
 
 if IMC <= 17:
