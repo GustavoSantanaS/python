@@ -4,17 +4,17 @@ menor = 0
 cont = 1
 
 while True: #inicia o loop com entrada de dados do usuario
-    n = int(input('Digite um número inteiro (digite 0 para sair): '))
-    if n == 0:
+    numeroInteiro = int(input('Digite um número inteiro (digite 0 para sair): '))
+    if numeroInteiro == 0:
         break
     if cont == 1: # ve se e a primeira interacao do loop
-        maior = n
-        menor = n
+        maior = numeroInteiro
+        menor = numeroInteiro
         cont = 0  #da uma atualizada no cont para não entrar mais nesta condição
     if n > maior: #verifica se e maior
-        maior = n 
+        maior = numeroInteiro 
     if n < menor: #ve se e menor
-        menor = n
+        menor = numeroInteiro
 
 if maior and menor: # ve o maior e o menor se foram atualizados de acordo com a resposta do usuario
     print('O maior número foi', maior)
